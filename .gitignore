@@ -128,5 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+<<<<<<< HEAD
 
 demo-pardy.js
+=======
+>>>>>>> d20847e (Initial commit)
