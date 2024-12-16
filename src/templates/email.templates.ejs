@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtered Payload View</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Global Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* User Section */
+    .user-section {
+      margin-bottom: 30px;
+      padding: 15px;
+      background: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .user-section h2 {
+      color: #333;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    /* Space Section */
+    .space-section {
+      margin-top: 15px;
+    }
+
+    .space-section h1 {
+      font-size: 1.8rem;
+      color: #007bff;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 8px;
+    }
+
+    /* Folder Section */
+    .folder-section {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .folder-section h3 {
+      font-size: 1.5rem;
+      color: #555;
+    }
+
+    /* List Section */
+    .list-section {
+      margin-left: 40px;
+      margin-top: 8px;
+    }
+
+    .list-section h4 {
+      font-size: 1.2rem;
+      color: #333;
+      font-weight: 600;
+    }
+
+    /* Tasks List */
+    ul {
+      list-style: none;
+      margin-left: 10px;
+    }
+
+    ul li {
+      padding: 5px 10px;
+      background: #eaf3ff;
+      border: 1px solid #d0e2ff;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      color: #444;
+    }
+
+    ul li:hover {
+      background: #d0e2ff;
+      color: #333;
+      cursor: pointer;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 768px) {
+      .container {
+        padding: 10px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-size: smaller;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Display Assignee Details -->
+    <div class="user-section">
+      <h2>Assignee: <%= payload.member.username %>
+      </h2>
+      <p>Email: <%= payload.member.email %>
+      </p>
+    </div>
+
+    <!-- Iterate Over Spaces -->
+    <% payload.spaces.forEach(space => { %>
+      <div class="space-section">
+        <h1>Space: <%= space.name %>
+        </h1>
+
+        <!-- Iterate Over Folders -->
+        <% space.folders.forEach(folder => { %>
+          <div class="folder-section">
+            <h3>Folder: <%= folder.name %>
+            </h3>
+
+            <!-- Iterate Over Lists -->
+            <% folder.lists.forEach(list => { %>
+              <div class="list-section">
+                <h4>List: <%= list.name %>
+                </h4>
+
+                <!-- Check and Iterate Over Tasks -->
+                <% if (list.tasks && list.tasks.length > 0) { %>
+                  <ul>
+                    <% list.tasks.forEach(task => { %>
+                      <li>
+                        Task: <%= task.name %>
+                        <% if (task.due_date) { 
+                            var dueDate = new Date(parseInt(task.due_date)); 
+                            var formattedDate = dueDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+                        %>
+                          <br>Due Date: <%= formattedDate %>
+                        <% } %>
+                      </li>
+                    <% }); %>
+                  </ul>
+                <% } else { %>
+                  <p>No tasks available.</p>
+                <% } %>
+              </div>
+            <% }); %>
+
+          </div>
+        <% }); %>
+
+      </div>
+    <% }); %>
+  </div>
+</body>
+
+</html>

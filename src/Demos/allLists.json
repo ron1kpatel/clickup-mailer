@@ -1,0 +1,491 @@
+[
+  {
+    "id": "901605292705",
+    "name": "Backlog",
+    "orderindex": 1,
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278087",
+      "name": "E-Commerce Platform Development",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419191",
+      "name": "Software Development",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": null,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292930",
+    "name": "Sprint 1",
+    "orderindex": 2,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278087",
+      "name": "E-Commerce Platform Development",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419191",
+      "name": "Software Development",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292957",
+    "name": "Bugs",
+    "orderindex": 3,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278087",
+      "name": "E-Commerce Platform Development",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419191",
+      "name": "Software Development",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292713",
+    "name": "Feature Development",
+    "orderindex": 0,
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278092",
+      "name": "Mobile App - Food Delivery",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419191",
+      "name": "Software Development",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": null,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605293008",
+    "name": "Bugs and Issues",
+    "orderindex": 1,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 2,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278092",
+      "name": "Mobile App - Food Delivery",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419191",
+      "name": "Software Development",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605293030",
+    "name": "Maintenance",
+    "orderindex": 2,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278092",
+      "name": "Mobile App - Food Delivery",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419191",
+      "name": "Software Development",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292756",
+    "name": "Wireframes",
+    "orderindex": 1,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278106",
+      "name": "Design for E-commerce platform",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419196",
+      "name": "Design",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292769",
+    "name": "Prototypes",
+    "orderindex": 2,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278106",
+      "name": "Design for E-commerce platform",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419196",
+      "name": "Design",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292778",
+    "name": "Final Design",
+    "orderindex": 3,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278106",
+      "name": "Design for E-commerce platform",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419196",
+      "name": "Design",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292733",
+    "name": "Animation",
+    "orderindex": 0,
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278108",
+      "name": "Design Mobile App - Food Delivery",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419196",
+      "name": "Design",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": null,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292782",
+    "name": "UI Mockups",
+    "orderindex": 1,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278108",
+      "name": "Design Mobile App - Food Delivery",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419196",
+      "name": "Design",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292721",
+    "name": "Manual Tests",
+    "orderindex": 0,
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278100",
+      "name": "Testing for E-Commerce Platform",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419215",
+      "name": "Quality Assurance",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": null,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605293075",
+    "name": "Automated Tests",
+    "orderindex": 1,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278100",
+      "name": "Testing for E-Commerce Platform",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419215",
+      "name": "Quality Assurance",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292727",
+    "name": "API Testing",
+    "orderindex": 0,
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278104",
+      "name": "Testing for Food Delivery App",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419215",
+      "name": "Quality Assurance",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": null,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605293104",
+    "name": "UI/UX Testing",
+    "orderindex": 1,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278104",
+      "name": "Testing for Food Delivery App",
+      "hidden": false,
+      "access": true
+    },
+    "space": {
+      "id": "90162419215",
+      "name": "Quality Assurance",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605293633",
+    "name": "Code Reviews",
+    "orderindex": 0,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278788",
+      "name": "hidden",
+      "hidden": true,
+      "access": true
+    },
+    "space": {
+      "id": "90162419191",
+      "name": "Software Development",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605293135",
+    "name": "Critical Bugs",
+    "orderindex": 0,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278364",
+      "name": "hidden",
+      "hidden": true,
+      "access": true
+    },
+    "space": {
+      "id": "90162419191",
+      "name": "Software Development",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292691",
+    "name": "List",
+    "orderindex": 0,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 0,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278079",
+      "name": "hidden",
+      "hidden": true,
+      "access": true
+    },
+    "space": {
+      "id": "90162419203",
+      "name": "HR",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  },
+  {
+    "id": "901605292716",
+    "name": "List",
+    "orderindex": 0,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 0,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+      "id": "90163278094",
+      "name": "hidden",
+      "hidden": true,
+      "access": true
+    },
+    "space": {
+      "id": "90162419215",
+      "name": "Quality Assurance",
+      "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+  }
+]

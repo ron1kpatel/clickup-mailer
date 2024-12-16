@@ -1,0 +1,533 @@
+[
+  {
+    "id": "90162419191",
+    "name": "Software Development",
+    "color": "#3e63dd",
+    "private": false,
+    "avatar": null,
+    "admin_can_manage": false,
+    "statuses": [
+      {
+        "id": "p90162419191_363b0Z6E",
+        "status": "backlog",
+        "type": "open",
+        "orderindex": 0,
+        "color": "#87909e"
+      },
+      {
+        "id": "p90162419191_TRDwiURj",
+        "status": "in progress",
+        "type": "custom",
+        "orderindex": 1,
+        "color": "#5f55ee"
+      },
+      {
+        "id": "p90162419191_RUjIAiXS",
+        "status": "complete",
+        "type": "closed",
+        "orderindex": 2,
+        "color": "#008844"
+      }
+    ],
+    "multiple_assignees": true,
+    "features": {
+      "due_dates": {
+        "enabled": true,
+        "start_date": true,
+        "remap_due_dates": true,
+        "remap_closed_due_date": false
+      },
+      "sprints": {
+        "enabled": false
+      },
+      "time_tracking": {
+        "enabled": true,
+        "harvest": false,
+        "rollup": true,
+        "default_to_billable": 2
+      },
+      "points": {
+        "enabled": false
+      },
+      "custom_items": {
+        "enabled": false
+      },
+      "priorities": {
+        "enabled": true,
+        "priorities": [
+          {
+            "color": "#f50000",
+            "id": "1",
+            "orderindex": "1",
+            "priority": "urgent"
+          },
+          {
+            "color": "#f8ae00",
+            "id": "2",
+            "orderindex": "2",
+            "priority": "high"
+          },
+          {
+            "color": "#6fddff",
+            "id": "3",
+            "orderindex": "3",
+            "priority": "normal"
+          },
+          {
+            "color": "#d8d8d8",
+            "id": "4",
+            "orderindex": "4",
+            "priority": "low"
+          }
+        ]
+      },
+      "tags": {
+        "enabled": true
+      },
+      "time_estimates": {
+        "enabled": true,
+        "rollup": true,
+        "per_assignee": false
+      },
+      "check_unresolved": {
+        "enabled": true,
+        "subtasks": null,
+        "checklists": null,
+        "comments": null
+      },
+      "zoom": {
+        "enabled": false
+      },
+      "milestones": {
+        "enabled": true
+      },
+      "custom_fields": {
+        "enabled": true
+      },
+      "remap_dependencies": {
+        "enabled": true
+      },
+      "dependency_warning": {
+        "enabled": true
+      },
+      "status_pies": {
+        "enabled": true
+      },
+      "multiple_assignees": {
+        "enabled": true
+      },
+      "emails": {
+        "enabled": true
+      },
+      "scheduler_enabled": false
+    },
+    "archived": false
+  },
+  {
+    "id": "90162419196",
+    "name": "Design",
+    "color": "#3e63dd",
+    "private": false,
+    "avatar": null,
+    "admin_can_manage": false,
+    "statuses": [
+      {
+        "id": "p90162419196_LGv9kuC6",
+        "status": "draft",
+        "type": "open",
+        "orderindex": 0,
+        "color": "#87909e"
+      },
+      {
+        "id": "p90162419196_YvY1647h",
+        "status": "planning",
+        "type": "custom",
+        "orderindex": 1,
+        "color": "#87909e"
+      },
+      {
+        "id": "p90162419196_N0EqcmxP",
+        "status": "in progress",
+        "type": "custom",
+        "orderindex": 2,
+        "color": "#5f55ee"
+      },
+      {
+        "id": "p90162419196_J03eP20N",
+        "status": "at risk",
+        "type": "custom",
+        "orderindex": 3,
+        "color": "#e16b16"
+      },
+      {
+        "id": "p90162419196_fDtxqxxk",
+        "status": "update required",
+        "type": "custom",
+        "orderindex": 4,
+        "color": "#f8ae00"
+      },
+      {
+        "id": "p90162419196_PbrXR8d3",
+        "status": "on hold",
+        "type": "custom",
+        "orderindex": 5,
+        "color": "#aa8d80"
+      },
+      {
+        "id": "p90162419196_Nlr8ZmI8",
+        "status": "complete",
+        "type": "done",
+        "orderindex": 6,
+        "color": "#0f9d9f"
+      },
+      {
+        "id": "p90162419196_uSNwCrZy",
+        "status": "cancelled",
+        "type": "closed",
+        "orderindex": 7,
+        "color": "#008844"
+      }
+    ],
+    "multiple_assignees": true,
+    "features": {
+      "due_dates": {
+        "enabled": true,
+        "start_date": true,
+        "remap_due_dates": true,
+        "remap_closed_due_date": false
+      },
+      "sprints": {
+        "enabled": false
+      },
+      "time_tracking": {
+        "enabled": true,
+        "harvest": false,
+        "rollup": true,
+        "default_to_billable": 2
+      },
+      "points": {
+        "enabled": false
+      },
+      "custom_items": {
+        "enabled": false
+      },
+      "priorities": {
+        "enabled": true,
+        "priorities": [
+          {
+            "color": "#f50000",
+            "id": "1",
+            "orderindex": "1",
+            "priority": "urgent"
+          },
+          {
+            "color": "#f8ae00",
+            "id": "2",
+            "orderindex": "2",
+            "priority": "high"
+          },
+          {
+            "color": "#6fddff",
+            "id": "3",
+            "orderindex": "3",
+            "priority": "normal"
+          },
+          {
+            "color": "#d8d8d8",
+            "id": "4",
+            "orderindex": "4",
+            "priority": "low"
+          }
+        ]
+      },
+      "tags": {
+        "enabled": true
+      },
+      "time_estimates": {
+        "enabled": true,
+        "rollup": true,
+        "per_assignee": false
+      },
+      "check_unresolved": {
+        "enabled": true,
+        "subtasks": null,
+        "checklists": null,
+        "comments": null
+      },
+      "zoom": {
+        "enabled": false
+      },
+      "milestones": {
+        "enabled": true
+      },
+      "custom_fields": {
+        "enabled": true
+      },
+      "remap_dependencies": {
+        "enabled": true
+      },
+      "dependency_warning": {
+        "enabled": true
+      },
+      "status_pies": {
+        "enabled": true
+      },
+      "multiple_assignees": {
+        "enabled": true
+      },
+      "emails": {
+        "enabled": true
+      },
+      "scheduler_enabled": false
+    },
+    "archived": false
+  },
+  {
+    "id": "90162419203",
+    "name": "HR",
+    "color": "#6e56cf",
+    "private": false,
+    "avatar": null,
+    "admin_can_manage": false,
+    "statuses": [
+      {
+        "id": "p90162419203_YKz9WxDQ",
+        "status": "to do",
+        "type": "open",
+        "orderindex": 0,
+        "color": "#87909e"
+      },
+      {
+        "id": "p90162419203_KjA8f5rI",
+        "status": "in progress",
+        "type": "custom",
+        "orderindex": 1,
+        "color": "#5f55ee"
+      },
+      {
+        "id": "p90162419203_XjoLrCcy",
+        "status": "complete",
+        "type": "closed",
+        "orderindex": 2,
+        "color": "#008844"
+      }
+    ],
+    "multiple_assignees": true,
+    "features": {
+      "due_dates": {
+        "enabled": true,
+        "start_date": true,
+        "remap_due_dates": true,
+        "remap_closed_due_date": false
+      },
+      "sprints": {
+        "enabled": false
+      },
+      "time_tracking": {
+        "enabled": true,
+        "harvest": false,
+        "rollup": true,
+        "default_to_billable": 2
+      },
+      "points": {
+        "enabled": false
+      },
+      "custom_items": {
+        "enabled": false
+      },
+      "priorities": {
+        "enabled": true,
+        "priorities": [
+          {
+            "color": "#f50000",
+            "id": "1",
+            "orderindex": "1",
+            "priority": "urgent"
+          },
+          {
+            "color": "#f8ae00",
+            "id": "2",
+            "orderindex": "2",
+            "priority": "high"
+          },
+          {
+            "color": "#6fddff",
+            "id": "3",
+            "orderindex": "3",
+            "priority": "normal"
+          },
+          {
+            "color": "#d8d8d8",
+            "id": "4",
+            "orderindex": "4",
+            "priority": "low"
+          }
+        ]
+      },
+      "tags": {
+        "enabled": true
+      },
+      "time_estimates": {
+        "enabled": true,
+        "rollup": true,
+        "per_assignee": false
+      },
+      "check_unresolved": {
+        "enabled": true,
+        "subtasks": null,
+        "checklists": null,
+        "comments": null
+      },
+      "zoom": {
+        "enabled": false
+      },
+      "milestones": {
+        "enabled": true
+      },
+      "custom_fields": {
+        "enabled": true
+      },
+      "remap_dependencies": {
+        "enabled": true
+      },
+      "dependency_warning": {
+        "enabled": true
+      },
+      "status_pies": {
+        "enabled": true
+      },
+      "multiple_assignees": {
+        "enabled": true
+      },
+      "emails": {
+        "enabled": true
+      },
+      "scheduler_enabled": false
+    },
+    "archived": false
+  },
+  {
+    "id": "90162419215",
+    "name": "Quality Assurance",
+    "color": "#6e56cf",
+    "private": false,
+    "avatar": null,
+    "admin_can_manage": false,
+    "statuses": [
+      {
+        "id": "p90162419215_tgk1Yg1z",
+        "status": "to do",
+        "type": "open",
+        "orderindex": 0,
+        "color": "#87909e"
+      },
+      {
+        "id": "p90162419215_jKXdhvUZ",
+        "status": "in progress",
+        "type": "custom",
+        "orderindex": 1,
+        "color": "#5f55ee"
+      },
+      {
+        "id": "p90162419215_EuCq2snE",
+        "status": "complete",
+        "type": "closed",
+        "orderindex": 2,
+        "color": "#008844"
+      }
+    ],
+    "multiple_assignees": true,
+    "features": {
+      "due_dates": {
+        "enabled": true,
+        "start_date": true,
+        "remap_due_dates": true,
+        "remap_closed_due_date": false
+      },
+      "sprints": {
+        "enabled": false
+      },
+      "time_tracking": {
+        "enabled": true,
+        "harvest": false,
+        "rollup": true,
+        "default_to_billable": 2
+      },
+      "points": {
+        "enabled": false
+      },
+      "custom_items": {
+        "enabled": false
+      },
+      "priorities": {
+        "enabled": true,
+        "priorities": [
+          {
+            "color": "#f50000",
+            "id": "1",
+            "orderindex": "1",
+            "priority": "urgent"
+          },
+          {
+            "color": "#f8ae00",
+            "id": "2",
+            "orderindex": "2",
+            "priority": "high"
+          },
+          {
+            "color": "#6fddff",
+            "id": "3",
+            "orderindex": "3",
+            "priority": "normal"
+          },
+          {
+            "color": "#d8d8d8",
+            "id": "4",
+            "orderindex": "4",
+            "priority": "low"
+          }
+        ]
+      },
+      "tags": {
+        "enabled": true
+      },
+      "time_estimates": {
+        "enabled": true,
+        "rollup": true,
+        "per_assignee": false
+      },
+      "check_unresolved": {
+        "enabled": true,
+        "subtasks": null,
+        "checklists": null,
+        "comments": null
+      },
+      "zoom": {
+        "enabled": false
+      },
+      "milestones": {
+        "enabled": true
+      },
+      "custom_fields": {
+        "enabled": true
+      },
+      "remap_dependencies": {
+        "enabled": true
+      },
+      "dependency_warning": {
+        "enabled": true
+      },
+      "status_pies": {
+        "enabled": true
+      },
+      "multiple_assignees": {
+        "enabled": true
+      },
+      "emails": {
+        "enabled": true
+      },
+      "scheduler_enabled": false
+    },
+    "archived": false
+  }
+]

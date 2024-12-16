@@ -1,0 +1,26 @@
+[
+  {
+    "id": "9016442698",
+    "name": "System",
+    "color": "#40BC86",
+    "avatar": null,
+    "members": [
+      {
+        "user": {
+          "id": 55443141,
+          "username": "Ray Chopra",
+          "email": "rp240267@gmail.com",
+          "color": "",
+          "profilePicture": null,
+          "initials": "RC",
+          "role": 1,
+          "role_subtype": 0,
+          "custom_role": null,
+          "last_active": "1734004606944",
+          "date_joined": "1721908974448",
+          "date_invited": "1721908974448"
+        }
+      }
+    ]
+  }
+]
